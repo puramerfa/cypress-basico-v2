@@ -76,7 +76,7 @@ describe('Central de Atendimento ao Cliente TAT', function () {
 
         cy.get('#phone-checkbox').check()
 
-        cy.get('#phone').type('sda1fasdf').should('have.value','12')
+        cy.get('#phone').type('sda1fasdf').should('have.value','1')
 
         cy.get('.error').should('be.visible')
 
